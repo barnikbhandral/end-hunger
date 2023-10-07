@@ -1,0 +1,516 @@
+@font-face{
+    font-family: OpenSans-Bold ;
+    src: url(./../fonts/Open_Sans/OpenSans-Bold.ttf);
+}
+
+@font-face{
+    font-family: OpenSans-Regular;
+    src: url(./../fonts/Open_Sans/OpenSans-Regular.ttf);
+}
+@font-face{
+    font-family: OpenSans-ExtraBold;
+    src: url(./../fonts/Open_Sans/OpenSans-ExtraBold.ttf);
+}
+@font-face{
+    font-family:OpenSans-Light ;
+    src: url(./../fonts/Open_Sans/OpenSans-Light.ttf);
+}
+
+ body{
+    font-family:OpenSans-Light ;
+} 
+.container{
+    max-width: 1080px;
+    margin: auto;
+}
+.clear{
+    clear: both;
+}
+.layout{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: rgba(176, 78, 71, 0.5);
+}
+header{
+    background-color: #254151;
+}
+p{
+    font-family: OpenSans-Regular;  
+}
+h2{
+    font-family: OpenSans-Bold ; 
+    font-size: 30px;
+}
+/* Header */
+.left{
+    max-width: 24.33%;
+    float: left;
+}
+.left h3{
+    margin: 0;
+    display: inline-block;
+    margin-top: 23px;
+}
+.photo{
+    float: left;
+    max-width: 16%;
+    padding: 9px;
+}
+.siteName{
+    float: right;
+    width: 80%;
+    padding-top: 3px;
+}
+.photo img{
+    max-width: 40%;
+    margin-left:43% ;
+}
+#middle{
+    
+    float: left;
+    padding: 7px;
+    max-width: 46.33%;
+}
+#middle a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+}
+#middle a:hover{
+    color: #B04E47;
+}
+#middle ul{
+    padding: 0;  
+}
+.topSection li{
+    list-style-type: none;
+    padding: 10px;  
+}
+#right{
+    position: relative;
+    width: 23%;
+    float: right;
+    height: 65px;
+}
+#right button{
+    outline: none;
+    position: absolute;
+    right: 0;
+    padding: 24px;
+    letter-spacing: 7px;
+    font-weight: 800;
+    background-color: yellow;
+    border: none;
+}
+#right button a{
+    text-decoration: none;
+    color: black;
+}
+h3, h4, h1{
+    color: #fff;
+    font-family: OpenSans-Bold ; 
+}
+.topSection ul, .topSection li, h4, #right{
+    display: inline;
+}
+/* / Header */
+
+/* BANNER SECTION */
+.banner{
+    position: relative;
+    background-image: url(./../photos/bannerImage.jpeg);
+    height: 900px;
+    z-index: -1;
+}
+.endHunger{
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    max-width: 40%;
+    text-align: center;    
+}
+.banner h1{
+    font-size: 5rem;
+    margin: 0;
+}
+.banner p{
+    font-size: 25px;
+    margin: 0;
+    color: #DBBE56;
+    font-family: OpenSans-Regular;
+}
+.media{
+    position: absolute;
+    right: 0;
+    top: 29%;
+    background-color: #DBBE56;
+    width: 67px;
+}
+.socialMedia{
+    width: 30px;
+    display: block;
+    padding: 15px;
+}
+/* / BANNER SECTION */
+
+/*  WHOAREWE */
+.support{
+ background-image: url(./../photos/delivery.jpg);
+ 
+ background-size: cover;  
+}
+#info{
+  max-width: 90%;
+  margin: auto;
+  text-align: center;
+  margin-top: -149px;
+}
+.mission{
+    float: left;
+    width: 60%;
+    background-color: #EAEAE8;
+    height: 292px;
+}
+.blueHeading h2{
+    color: hsl(202, 47%, 19%);
+    margin-bottom: 0;
+    padding-top: 45px;   
+}
+.mission p, .mission a{
+    font-size: 14px;
+} 
+.mission p{
+    line-height: 1.8; 
+    padding: 7px 100px;
+    padding-bottom: 15px;
+    margin: 0;  
+}
+.mission a{
+    color: #000;
+    text-decoration: none;
+    font-weight: 800;
+}
+.mission a:hover{
+    color: #85C8BB;
+}
+.support{
+    float: right;
+    width: 40%;
+    text-align: center;
+    position: relative;
+
+}
+.support h2{
+color: #fff;
+padding: 41px 123px;
+position: relative;
+}
+.support button{
+    padding: 13px;
+    border: white;
+    border-radius: 35px;  
+    margin-bottom: 37px;
+    position: relative;
+}
+.support button {
+    color: #B95140;
+    font-weight: 600;
+}
+#lower .mission{
+    background-color: #44B29D;
+}
+ .subscribe{
+    background-color: #254151;
+    float: right;
+    width: 40%;
+    text-align: center;
+    color: #fff;    
+}
+.subscribe h2{
+    
+    padding-top: 47px;
+}
+.subscribe ul{
+    padding: 0;
+    list-style-type: none;
+}
+.subscribe li:last-child{
+    display: inline-block;
+    border-bottom: solid 1px;
+}
+.subscribe form{
+    display: inline;
+    font-size: 12px;
+}
+.subscribe label{
+    vertical-align: 10px;
+    padding: 0;
+}
+.subscribe input{
+ display: block;
+ margin: auto;  
+ border: none;
+ background-color: transparent;
+ border-bottom: 1px solid #fff;
+ color: #fff;
+}
+.subscribe p{
+    font-size: 15px;
+}
+.subscribe img{
+    width: 6%;
+    cursor: grab;
+}
+.subscribe a{
+    display: inline-block;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 13px;
+    padding: 17px 0 38px;   
+}
+/* / WHOAREWE */
+
+/* EVENT SECTION */
+.smallContainer{
+    max-width: 90%;
+    margin: auto;
+    text-align: center;
+}
+.smallContainer h1{
+    margin: 53px;
+    font-size: 30px;
+}
+.event{
+  max-width: 30%; 
+  float: left; 
+  margin: 0 16px
+}
+.event img{
+    height: 360px;
+    width: 100%;
+}
+.smallContainer h3 ,.smallContainer  h1{
+    color:hsl(202, 47%, 19%);
+}
+.smallContainer h3{
+    padding: 15px;
+}
+.smallContainer button{
+    margin: 50px 0px;
+    padding: 16px;
+    background-color:#254151 ;
+    border-radius: 37px;
+    border: none;
+}
+.smallContainer button {
+    font-weight: 800;
+    color: #fff;
+}
+/* EVENT 1 */
+.packaging{
+    margin-left: 44px;
+}
+/* / EVENT SECTION */
+
+ 
+/* PLAYING SECTION */
+.playingChildrens{
+    background-image: url(./../photos/play.jpg);
+    background-size: contain;
+    height: 200px;
+    margin: 60px 0 135px;
+    text-align: center;
+    position: relative;
+}
+.playingChildrens h2{
+    color: #fff;
+    display: inline-block;
+    margin: 80px 0;
+    position: relative;
+}
+.playingChildrens button{
+    outline: none;
+    padding: 16px;
+    background-color:#fff ;
+    border-radius: 37px;
+    border: none;
+    vertical-align: -88px;
+    margin-left: 50px;
+    position: relative;
+}
+.playingChildrens button a{
+    text-decoration: none;
+    font-weight: 800;
+    color: #E1B169;
+}
+.statement{
+   float: left;
+   max-width: 63%;
+   width: 100%;
+   text-align: end;
+}
+.action{
+    float: right;
+    max-width: 37%;
+    width: 100%;
+    height: 200px;
+    text-align: initial;
+}
+/* / PLAYING SECTION */
+
+
+/* NEWS SECTION */
+#news{
+    text-align: center;
+}
+#news{
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: 70px;
+}
+.newsColumn{
+    float: left;
+    width: 25%;
+    text-align: left;
+    margin: 0 40px;   
+}
+.newsColumn h2{
+    margin-bottom: 60px;
+}
+.newsColumn h5{
+    font-family: OpenSans-Bold ;
+    font-size: 17px;
+    color: #133143;   
+}
+.newsColumn .newsText{
+    padding-bottom: 100px;
+    border-bottom: 2px solid;
+    color: #ADB7BD;    
+}
+.icon .heart{
+    margin:0;
+    display: inline;
+    text-decoration: none;
+    font-size: 40px;
+    color:#F08783;
+}
+.icon img{
+    width: 30px;
+}
+.icon p{
+    display: inline-block;
+    vertical-align: 11px;
+    font-size: small;
+    color: #ADB7BD;
+    margin-right: 10px;
+}
+.icon a p{
+    color: #ADB7BD;
+}
+.icon a{
+    margin-right: 38px;
+}
+/* / NEWS SECTION */
+
+/* CONTACT US SECTION */
+#contactUs{
+    background-color: #EAEAE8;
+}
+
+.contact{
+    max-width: 90%;
+    margin: auto;
+    color: #848187;
+    padding: 25px 0;
+}
+.address {
+    
+  float: left; 
+  text-align: left;
+   
+}
+.addresscolumn{
+    margin: 0 30px;
+    max-width: 30%;
+}
+.addresscolumn h2{
+    color: #09263E;
+}
+.addresscolumn a{
+    text-decoration: none;
+    display: block;
+    padding: 5px 0;
+    color: #848187;
+    font-weight: 700;
+}
+
+.addresscolumn a:hover{
+    color: #44B29D;
+}
+.address p{
+    padding-right: 83px;
+    line-height: 33px;
+  
+}
+.address1{
+    float:left;
+}
+.address2{
+    float: left;
+}
+form label{
+    padding-left: 37px;
+}
+.mail{
+    display: block;
+}
+form button{
+    border: none;
+    background-color:#EAEAE8;    
+}
+form input{
+    border: none;
+    border-bottom: 2px solid #848187 ;
+    background-color: #EAEAE8;
+    outline: none;
+}
+/* / CONTACT US SECTION */
+
+/* CONTACTNUMBER SECTION */
+.contactNumber{
+    text-align: center;
+    background-color: #44B29D;
+    padding: 15px 0;
+}
+
+.contactNumber h2{
+    color: #133143;
+    margin: 0;    
+}
+/* / CONTACTNUMBER SECTION */
+
+/* TRADEMARK SECTION */
+#trademark{
+    background-color: #133143;
+    text-align: center;
+}
+.copyright{
+    max-width: 41%;
+    margin: auto;
+}
+
+#trademark h3{   
+    display: inline-block;
+    font-weight:400;
+    font-family:OpenSans-Light ;
+    margin: 9px;    
+}
+#trademark  span{
+    float: left;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 0;
+}
+/* / TRADEMARK SECTION */
